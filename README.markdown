@@ -14,12 +14,12 @@ For this project's documentation,  '$' means place to run a command
 ### Clone
 
 ~~~
-$ git@github.com:lesterzone/sea.git
+$ git clone git@github.com:lesterzone/sea.git
 ~~~
 
 ### Install dependencies
 
-$ cd sea and:
+$ cd sea folder and:
 
 ~~~
 $ npm install
@@ -55,5 +55,5 @@ grunt build
 
 ### Contributors
 
-@lesterzone
-@drojasug
+*   @lesterzone
+*   @drojasug
