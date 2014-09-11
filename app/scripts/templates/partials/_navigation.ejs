@@ -1,0 +1,23 @@
+<nav class="bar ios-title">
+    <% if(title){ %>
+        <h1 class="title">
+            <%- title %>
+        </h1>
+    <% } else { %>
+        <h1 class="title">Home</h1>
+    <% } %>
+</nav>
+<header class="bar bar-tab">
+  <a class="tab-item <%= nav === 'home' ? 'active' : '' %>" href="#">
+    <span class="icon icon-home"></span>
+  </a>
+  <a class="tab-item" href="#">
+    <span class="icon icon-list"></span>
+  </a>
+  <a class="tab-item" href="#">
+    <span class="icon icon-star"></span>
+  </a>
+  <a class="tab-item" href="#">
+    <span class="icon icon-info"></span>
+  </a>
+</header>
